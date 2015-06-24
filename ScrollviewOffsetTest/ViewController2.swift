@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  ScrollviewOffsetTest
 //
 //  Created by E. Kevin Hall on 6/24/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController2: UIViewController {
   
   @IBOutlet weak var webView: UIWebView!
   
@@ -16,20 +16,22 @@ class ViewController: UIViewController {
   
   @IBAction func goForwards(sender: AnyObject) {
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let vc = storyboard.instantiateViewControllerWithIdentifier("SecondVC") as! ViewController2
+    let vc = storyboard.instantiateViewControllerWithIdentifier("ThirdVC") as! ViewController3
     navigationController!.pushViewController(vc, animated: true)
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
     webView.backgroundColor = UIColor.clearColor()
     webView.opaque = false
     webView.scrollView.showsHorizontalScrollIndicator = false
     webView.loadHTMLString(htmlString, baseURL: nil)
-    
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
   }
   
   
 }
-

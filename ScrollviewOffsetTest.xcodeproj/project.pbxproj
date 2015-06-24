@@ -13,6 +13,8 @@
 		AEDB08331B3B635D0096A005 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDB08321B3B635D0096A005 /* Images.xcassets */; };
 		AEDB08361B3B635D0096A005 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEDB08341B3B635D0096A005 /* LaunchScreen.xib */; };
 		AEDB08421B3B635D0096A005 /* ScrollviewOffsetTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB08411B3B635D0096A005 /* ScrollviewOffsetTestTests.swift */; };
+		AEDB084C1B3B64C20096A005 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB084B1B3B64C20096A005 /* ViewController2.swift */; };
+		AEDB084E1B3B66250096A005 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB084D1B3B66250096A005 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AEDB083B1B3B635D0096A005 /* ScrollviewOffsetTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollviewOffsetTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDB08401B3B635D0096A005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEDB08411B3B635D0096A005 /* ScrollviewOffsetTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewOffsetTestTests.swift; sourceTree = "<group>"; };
+		AEDB084B1B3B64C20096A005 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		AEDB084D1B3B66250096A005 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				AEDB082B1B3B635D0096A005 /* AppDelegate.swift */,
 				AEDB082D1B3B635D0096A005 /* ViewController.swift */,
+				AEDB084B1B3B64C20096A005 /* ViewController2.swift */,
+				AEDB084D1B3B66250096A005 /* ViewController3.swift */,
 				AEDB082F1B3B635D0096A005 /* Main.storyboard */,
 				AEDB08321B3B635D0096A005 /* Images.xcassets */,
 				AEDB08341B3B635D0096A005 /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				AEDB082E1B3B635D0096A005 /* ViewController.swift in Sources */,
 				AEDB082C1B3B635D0096A005 /* AppDelegate.swift in Sources */,
+				AEDB084E1B3B66250096A005 /* ViewController3.swift in Sources */,
+				AEDB084C1B3B64C20096A005 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
